@@ -17,6 +17,12 @@
             android:name=".input_barang"
             android:exported="false" />
         <activity
+            android:name=".barangAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".barang_Adapter"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

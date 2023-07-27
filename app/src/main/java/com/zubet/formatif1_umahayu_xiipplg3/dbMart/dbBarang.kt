@@ -22,7 +22,7 @@ abstract class dbBarang : RoomDatabase() {
             context.applicationContext,
             dbBarang::class.java,
             "SMKSA Mart"
-        ).build()
+        ).fallbackToDestructiveMigration().build()
 
     }
 

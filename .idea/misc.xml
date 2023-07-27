@@ -3,10 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.135" />
+        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/drawable/bg2.xml" value="0.135" />
+        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/drawable/bg3.xml" value="0.2105" />
+        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/drawable/bg_circle.xml" value="0.1175" />
+        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/drawable/bg_gradasi.xml" value="0.135" />
         <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1315" />
         <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.1315" />
-        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/layout/activity_input_barang.xml" value="0.25" />
+        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/drawable/shadow.xml" value="0.17" />
+        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/layout/activity_barang_adapter.xml" value="0.22" />
+        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/layout/activity_input_barang.xml" value="0.2" />
         <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Uma Hayu/formatif1_UmaHayu_XIIPPLG3/app/src/main/res/layout/barang_adapter.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
