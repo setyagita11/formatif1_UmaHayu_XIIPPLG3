@@ -10,19 +10,20 @@ abstract class dbBarang : RoomDatabase() {
     abstract fun PTsmksa() :barangDAO
 
     companion object {
-        @Volatile private var instance : dbBarang? =null
+        @Volatile
+        private var instance : dbBarang? =null
         private val LOCK = Any()
 
-        operator fun invoke(context: Context) = instance ?: synchronized(LOCK){
-            instance ?: buildDatabase(context).also {
-                instance = it
+        fun getInstance(context: Context): dbBarang {
+            if (instance == null){
+                instance = Room.databaseBuilder(context, dbBarang::class.java, "SMKSA_Mart")
+                    .fallbackToDestructiveMigration()
+                    .allowMainThreadQueries()
+                    .build()
+
             }
+            return instance!!
         }
-        private fun buildDatabase(context: Context) = Room.databaseBuilder(
-            context.applicationContext,
-            dbBarang::class.java,
-            "SMKSA Mart"
-        ).fallbackToDestructiveMigration().build()
 
     }
 

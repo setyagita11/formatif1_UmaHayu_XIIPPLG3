@@ -10,8 +10,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="321dp"
         android:layout_height="37dp"
-        android:layout_marginStart="-90dp"
-        android:layout_marginTop="-12dp"
+        android:layout_marginStart="-95dp"
+        android:layout_marginTop="-15dp"
         android:background="@drawable/bg_gradasi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -22,8 +22,8 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="321dp"
         android:layout_height="37dp"
-        android:layout_marginEnd="-90dp"
-        android:layout_marginBottom="-12dp"
+        android:layout_marginEnd="-95dp"
+        android:layout_marginBottom="-15dp"
         android:background="@drawable/bg_gradasi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,6 +32,7 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
         android:layout_width="45dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
@@ -41,6 +42,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
 
     <TextView
         android:id="@+id/textView"
@@ -73,9 +84,8 @@
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:layout_marginTop="50dp"
-            android:background="@drawable/shadow"
             android:ems="10"
-            android:hint="Nama Barang"
+            android:hint="   Nama Barang"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -87,9 +97,8 @@
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:layout_marginTop="25dp"
-            android:background="@drawable/shadow"
             android:ems="10"
-            android:hint="Harga"
+            android:hint="   Harga"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -101,9 +110,8 @@
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:layout_marginTop="25dp"
-            android:background="@drawable/shadow"
             android:ems="10"
-            android:hint="Stok"
+            android:hint="   Stok"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"

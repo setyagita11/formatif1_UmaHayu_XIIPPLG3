@@ -13,24 +13,34 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="191dp"
         android:padding="8dp">
 
-
         <TextView
-            android:id="@+id/tv_nama_barang"
+            android:id="@+id/tv2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="15dp"
-            android:text="Nama Barang : "
+            android:text="Nama Barang  : "
             android:textColor="@color/black"
-            android:textSize="20dp"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tv_harga_barang"
+            android:id="@+id/tv_nama_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/tv2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_nama_barang"
@@ -38,56 +48,74 @@
             android:layout_marginTop="10dp"
             android:ellipsize="end"
             android:maxLines="5"
-            android:text="Harga Barang : "
+            android:text="Harga Barang  : "
             android:textColor="@color/black"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_nama_barang" />
 
         <TextView
-            android:id="@+id/tv_item_stok"
+            android:id="@+id/tv_harga_barang"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/tv_harga_barang"
-            android:layout_marginStart="10dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="5dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="15dp"
-            android:ellipsize="end"
-            android:maxLines="5"
-            android:text="Stok Barang : "
             android:textColor="@color/black"
             android:textSize="20sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv1"
+            app:layout_constraintTop_toBottomOf="@+id/tv_nama_barang" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv1"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:text="Stok Barang     : "
+            android:textColor="@color/black"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_harga_barang" />
 
-        <ImageView
+        <TextView
+            android:id="@+id/tv_item_stok"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/tv"
+            app:layout_constraintTop_toBottomOf="@+id/tv_harga_barang" />
+
+        <ImageButton
             android:id="@+id/img_edit"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
+            android:layout_marginEnd="16dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.142"
+            app:layout_constraintVertical_bias="0.894"
             app:srcCompat="@drawable/ic_baseline_create_24" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/img_delete"
             android:layout_width="35dp"
             android:layout_height="35dp"
-            android:layout_Right="@id/img_edit"
             android:layout_alignParentEnd="true"
             android:layout_marginTop="5dp"
-            android:layout_marginEnd="5dp"
+            android:layout_marginEnd="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/img_edit"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.133"
+            app:layout_constraintVertical_bias="0.894"
             app:srcCompat="@drawable/ic_baseline_delete_24" />
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
